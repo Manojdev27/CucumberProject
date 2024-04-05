@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.121" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Test Tagged Hooks" name="This is the first scenario" time="0.009">
+<system-out><![CDATA[
+Given this is the first step................................................passed
+When this is the second step................................................passed
+Then this is the third step.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tagged Hooks" name="This is the second scenario" time="0.001">
+<system-out><![CDATA[
+Given this is the first step................................................passed
+When this is the second step................................................passed
+Then this is the third step.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Tagged Hooks" name="This is the third scenario" time="0">
+<system-out><![CDATA[
+Given this is the first step................................................passed
+When this is the second step................................................passed
+Then this is the third step.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

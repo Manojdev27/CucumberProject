@@ -1,4 +1,5 @@
-Feature: This is to test Facebook Login
+@DataDriven
+Feature: This is to test Facebook Login With Header
   Scenario: Facebook login example
     Given the user navigates to facebook.com
     Given user enters the credentials

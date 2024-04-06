@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
                   "junit:report/xmlReport.xml"},
 //        tags = "not @Positive"// used to exclude the tag
 //        tags = ("@DataDriven or @SimpleSearch")
-       tags = "@TaggedHooks"
+       tags = "@BackgroundExample"
 )
 public class RunnerClass {
 

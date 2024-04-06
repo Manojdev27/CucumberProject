@@ -10,14 +10,15 @@ public class TaggedHooks {
     public void this_is_the_first_step() {
         System.out.println("First Step");
     }
+
     @When("this is the second step")
     public void this_is_the_second_step() {
         System.out.println("Second Step");
     }
+
     @Then("this is the third step")
     public void this_is_the_third_step() {
-        System.out.println("Third step");
+        System.out.println("Third Step");
     }
-
 
 }

@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="0.121" tests="3" skipped="0" failures="0" errors="0">
-<testcase classname="Test Tagged Hooks" name="This is the first scenario" time="0.009">
+<testsuite name="Cucumber" time="0.121" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="To explain the usage of background" name="To Study Engineering" time="0.009">
 <system-out><![CDATA[
-Given this is the first step................................................passed
-When this is the second step................................................passed
-Then this is the third step.................................................passed
+Given The Student finished high School......................................passed
+Given The Student finished higher Secondary.................................passed
+Given the student applied for Engineering Course............................passed
+When the student cleared the entrance exam..................................passed
+Then the student is eligible for joining the College........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test Tagged Hooks" name="This is the second scenario" time="0.001">
+<testcase classname="To explain the usage of background" name="To Study Foreign Studies" time="0.001">
 <system-out><![CDATA[
-Given this is the first step................................................passed
-When this is the second step................................................passed
-Then this is the third step.................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Test Tagged Hooks" name="This is the third scenario" time="0">
-<system-out><![CDATA[
-Given this is the first step................................................passed
-When this is the second step................................................passed
-Then this is the third step.................................................passed
+Given The Student finished high School......................................passed
+Given The Student finished higher Secondary.................................passed
+Given the student applied for any foreign university........................passed
+When the student cleared the entrance exam..................................passed
+Then the student is eligible for joining the university.....................passed
 ]]></system-out>
 </testcase>
 </testsuite>
